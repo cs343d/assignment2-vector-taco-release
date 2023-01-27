@@ -13,6 +13,8 @@ The [original TACO paper](https://fredrikbk.com/publications/taco.pdf) will be q
 
 Each of the 6 tests are taken from Figure 10 in the original TACO paper, that figure may help with debugging conceptually.
 
+Each of the methods that need to be implemented are marked with `// STUDENTS TODO:`.
+
 
 ### Input Grammar
 
