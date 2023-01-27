@@ -1,6 +1,6 @@
 # Vector TACO
 
-In this assignment, you will implement a simplified version of TACO for single-dimension dense or compressed arrays. We provide scaffolding for you, so you only need to implement two minor stages of lowering from TACO front-end code down to a C-like IR that prints directly to C. You will need to implement merge lattice construction. We provide more details below, but if anything is not answered here, please open a Github issue in this repository, or email AJ (CA).
+In this assignment, you will implement a simplified version of TACO for single-dimension dense or compressed arrays. We provide scaffolding for you, so you only need to implement two minor stages of lowering from TACO front-end code down to a C-like IR that prints directly to C. You will need to implement merge lattice construction. We provide more details below, but if anything is not answered here, please post on Ed, or email AJ (CA).
 
 **Please note that you do not need to use any of the provided infrastructure.** As long as our tests pass(without modification to `run_test.sh` or any of the files in `tests/`) and you have indeed implemented merge lattice construction sufficiently, you will receive full points. We provide the scaffolding such that students do not need to spend time on IR design and printing to C, but you do not have to use it.
 
