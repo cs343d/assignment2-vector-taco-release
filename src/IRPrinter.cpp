@@ -182,7 +182,7 @@ void IRPrinter::visit(const ArrayAssignment *op) {
 void print_iterator(std::ostream &stream, const LIR::ArrayLevel array) {
     stream << array.name;
     // iterator is always dimension 0 for this assignment.
-    stream << "_d0";
+    stream << "_i";
     if (array.format == Format::Compressed) {
         stream << "_iter";
     }
@@ -192,7 +192,7 @@ void print_derived_index(std::ostream &stream, const LIR::ArrayLevel array) {
     assert(array.format == Format::Compressed);
     stream << array.name;
     // iterator is always dimension 0 for this assignment.
-    stream << "_d0";
+    stream << "_i";
 }
 
 void print_logical_index(std::ostream &stream) {
@@ -235,7 +235,7 @@ void print_array_access(std::ostream &stream, const LIR::ArrayLevel array) {
 void print_resolved_index(std::ostream &stream, const LIR::ArrayLevel array) {
     stream << array.name;
     // iterator is always dimension 0 for this assignment.
-    stream << "_d0";
+    stream << "_i";
 }
 
 void print_set_guard(std::ostream &stream, const LIR::IteratorSet &guard) {
