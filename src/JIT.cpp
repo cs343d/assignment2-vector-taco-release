@@ -45,7 +45,8 @@ void compile_to_file(const LIR::Stmt &stmt, const std::vector<std::string> &arg_
     std::ofstream file;
     file.open(filename);
 
-    file << "#include \"runtime/array.h\"\n\n\n";
+    file << "#include \"runtime/array.h\"\n\n";
+    file << "#include <cassert>\n\n";
 
     file << "void kernel(";
 
